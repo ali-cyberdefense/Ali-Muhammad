@@ -24,7 +24,6 @@ def start_instance():
 def stop_instance():
     ec2.stop_instances(InstanceIds=[instance_id])
     print(f"Stopping EC2 instance with ID: {instance_id}")
-
 ```
 
 ## 2. Monitor the CPU Utilization
@@ -87,7 +86,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
+**Result of Code:**
 
+![CPU Utilization](https://imgur.com/7nCx6yQ)
 
