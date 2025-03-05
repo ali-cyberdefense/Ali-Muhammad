@@ -1,4 +1,4 @@
-## 1. Install, configure AWS CDK & Develop a stack 
+## Install, configure AWS CDK & Develop a stack 
 
 
 **Code:**
